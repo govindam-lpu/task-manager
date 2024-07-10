@@ -1,6 +1,6 @@
 # Getting Started with Task Manager
 
-This project was bootstrapped with React, Node.js with Express and mongodb. 
+This project was made with React, Node.js with Express and mongodb. 
 Google Firebase and firestore was also used for authentication purposes
 
 In the project directory (and inside the backend directory), you can run:

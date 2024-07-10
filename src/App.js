@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState, useEffect } from 'react';
 import TaskForm from './components/TaskForm';
 import TaskList from './components/TaskList';
@@ -15,7 +14,7 @@ const App = () => {
       const tasksSnapshot = await getDocs(tasksCollection);
       const tasksData = tasksSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
       setTasks(tasksData);
-      console.log(tasksData);  // Log the fetched tasks
+      console.log(tasksData); 
     };
 
     fetchTasks();

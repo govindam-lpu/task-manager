@@ -3,12 +3,12 @@ import { getFirestore, collection, getDocs, addDoc, updateDoc, deleteDoc, doc } 
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB2EEbZp6eVR8LHoO93cr4o22UTaf10T1k",
-  authDomain: "task-manager-9424d.firebaseapp.com",
-  projectId: "task-manager-9424d",
-  storageBucket: "task-manager-9424d.appspot.com",
-  messagingSenderId: "569388912962",
-  appId: "1:569388912962:web:724c5d51ed812a5968f8db"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
 };
 
 const app = initializeApp(firebaseConfig);

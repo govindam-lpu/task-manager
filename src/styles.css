@@ -34,38 +34,17 @@ input, textarea, select, button {
 }
 
 button {
-  background-color: #28a745;
+  background-color: rgb(137, 134, 134);
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: rgba(137, 134, 134, 0.579);
 }
 
 ul {
   list-style-type: none;
   padding: 0;
-}
-
-li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-li:last-child {
-  border-bottom: none;
-}
-
-li button {
-  background-color: #dc3545;
-  margin-left: 10px;
-}
-
-li button:hover {
-  background-color: #c82333;
 }
